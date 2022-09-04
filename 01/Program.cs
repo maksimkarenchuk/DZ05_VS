@@ -29,7 +29,7 @@ try
    Console.WriteLine("Введите число элементов массива");
    int size = Convert.ToInt32(Console.ReadLine());
    int sum = Sumnegpoz(FillArray(size));
-   Console.WriteLine($"Количество четных чисел: {sum}");
+   Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях: {sum}");
 }
 catch
 {
